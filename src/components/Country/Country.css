@@ -1,12 +1,14 @@
 .country {
-  border: 2px solid slateblue;
+  border: 2px solid #6366f1;
   margin: 20px;
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.1);
 }
+
 .btn {
-  background-color: #4caf50;
-  color: black;
+  background-color: #6366f1;
+  color: white;
   font-weight: 600;
   padding: 10px 20px;
   border: none;
@@ -14,8 +16,15 @@
   cursor: pointer;
   font-size: 16px;
   margin-top: 10px;
+  transition: background-color 0.3s ease;
 }
+
 .btn:hover {
-  background-color: #45a049;
-  
+  background-color: #4f46e5;
+}
+
+.country-visited {
+  background-color: #d1fae5;
+
+  color: #065f46;
 }
